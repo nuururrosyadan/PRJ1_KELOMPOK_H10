@@ -4,6 +4,9 @@ div {
   margin: 0;
   padding: 0;
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Avenir Next";
@@ -12,12 +15,27 @@ body {
 li {
   list-style: none;
 }
-
-.header {
+.header{
+}
+.header-container {
+  top: 0px;
+  
+  position: fixed;
   background-color: #26d0c9;
   color: #fff;
-  height: 90px;
+  width: 100%;
+  opacity: 0.95;
+  height: 70px;
+
+  /*top: 10px;*/
+  /*transition: all 0.1s;*/
 }
+/*.header-container-scroll {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 50px;
+  transition: all 0.1s;
+}*/
 
 .header-logo {
   float: left;
@@ -28,4 +46,14 @@ li {
 .header-list li {
   float: right;
   padding: 33px 20px;
+}
+.top-wrapper{
+  padding-right: 180px 0px 100px 0px;
+  background-image: url('https://images.unsplash.com/photo-1574529395396-21637c4cf5df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80');
+  background-size: cover;
+  color: #fdffff;
+  text-align: center;
+  /*tinggi sementara*/
+  height: 800px;
+
 }
