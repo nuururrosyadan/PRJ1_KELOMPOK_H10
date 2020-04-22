@@ -1,2 +1,4 @@
 # PRJ1_KELOMPOK_H10
-File Projek kelompok H10 DTS 
+File ini adalah file Projek kelompok H10 DTS yang akan kita gunakan dalam Latihan pertama kita
+
+  
