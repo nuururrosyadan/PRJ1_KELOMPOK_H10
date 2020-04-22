@@ -1,0 +1,66 @@
+html, body,
+ul, li,
+div {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 9;  
+}
+.header-container {
+  top: 0px;
+  
+  position: fixed;
+  background-color: #26d0c9;
+  color: #fff;
+  width: 100%;
+  opacity: 0.95;
+  height: 70px;
+  z-index: 10;  
+
+  /*top: 10px;*/
+  /*transition: all 0.1s;*/
+}
+/*.header-container-scroll {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 50px;
+  transition: all 0.1s;
+}*/
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+}
+.top-wrapper{
+  padding-right: 180px 0px 100px 0px;
+  background-image: url('https://images.unsplash.com/photo-1574529395396-21637c4cf5df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80');
+  background-size: cover;
+  color: #fdffff;
+  text-align: center;
+  /*tinggi sementara*/
+  height: 800px;
+
+}
